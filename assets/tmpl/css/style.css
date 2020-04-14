@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Gastreet Font';
+    src:url('../fonts/GastreetSans/GastreetFont.eot');
+    src:url('../fonts/GastreetSans/GastreetFont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetFont.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetFont.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetFont.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetFont.svg#GastreetFont') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Regular.svg#GastreetSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;} 
+@font-face {
+    font-family: 'Gastreet Sans';
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot');
+    src:url('../fonts/GastreetSans/GastreetSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff2') format('woff2'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.woff') format('woff'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.ttf') format('truetype'),
+        url('../fonts/GastreetSans/GastreetSans-Bold.svg#GastreetSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;}
+* {
+    margin: 0;
+    padding: 0;}
+html {
+    font-size: 16px;}
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;    
+    background-position: center center;    
+    background-attachment: fixed;      
+    background-size: cover;      
+    background-color: #464646;
+    background-image:  url(../../../images/check.png);
+    background-repeat: no-repeat;}
+.chat-bot-landing .header {
+    color: #fff;}
+.chat-bot-landing .header .jule {
+    text-align: end;
+    width: 100%;}
+.chat-bot-landing .chat-bot-body .title {
+    font-size: 2.550rem;
+    font-weight: 600;
+    line-height: 1.2;}
+.chat-bot-landing .chat-bot-body .longtitle {
+    font-size: 1.550rem;}
+.socnet-icons {
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+    padding: 2rem 1rem;}
+.socnet-icons .socnet-title {
+    font-size: 1.550rem;
+    font-weight: 600;
+    margin-bottom: 2rem;}
+.socnet-icons .socnet-body .icons {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4.7rem;
+    padding: .5rem;
+    line-height: 1.15;
+    width: 7rem;
+    height: 7rem;
+    margin: 0 .3rem;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;}
+.socnet-icons .socnet-body .icons.telegram {
+    font-size: 7rem;
+    line-height: .9;
+    padding: 0;
+    color: #0088cc;
+    background: radial-gradient(#fff 49%, #0088cc 50%);}
+.socnet-icons .socnet-body .icons.whats-app {
+    background-color: #665cac;}
+.socnet-icons .socnet-body .icons.vk {
+    background-color: #4d7198;}
+.socnet-icons .socnet-body .icons.facebook {
+    background-color: #4267b2;}
+@media (min-width: 300px) and (max-width: 767px) {
+    html {
+        font-size: 11px;}
+    .chat-bot-landing .header .logo img {
+        width: 100%;
+        margin-bottom: 2rem;}
+    .chat-bot-landing .header .jule {
+        text-align: center;}
+    .chat-bot-landing .chat-bot-body .title {
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 1.2;}
+    .chat-bot-landing .chat-bot-body .longtitle {
+        font-size: 1.5rem;}
+    .socnet-icons .socnet-body .icons {
+        font-size: 2.5rem;
+        width: 4rem;
+        height: 4rem;}
+    .socnet-icons .socnet-body .icons.telegram {
+        font-size: 4rem;}
+}
